@@ -1,0 +1,32 @@
+.infotab
+{
+	line-height:25px;
+	margin: 25px 0px 25px 0px;
+}
+
+.fst
+{
+	width:1000px;
+	text-align:left;
+}
+
+.itab
+{
+	border-radius:6px;
+	border: 1px solid #999;
+	background: #DDD;
+}
+
+.itab * 
+{
+	border: 1px solid #999;
+	box-shadow:
+    inset rgba(0,0,0,.6) 0 -2px 6px,
+    inset rgba(252,255,255,.7) 0 2px 6px,
+    rgba(0,0,0,.8) 0 2px 6px -2px;
+}
+
+.itab th
+{
+ background: #BBB;	
+}

@@ -1,0 +1,227 @@
+.headtab
+{
+ position: relative;
+ left:5%; 
+ margin-top: 40px;
+}
+
+.tabs
+{
+	overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a.tabbut
+{
+	background: #ddd;
+    background-image: linear-gradient(to bottom, #999999, #5C5E5F);
+    border-radius: 5px 0 0 0;
+    color: #fff;
+    font-size: 13px;
+    float: left;
+    position: relative;
+    padding: 6px 50px 6px 25px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+}
+
+a.tabbut:hover,
+a.tabbut:hover::after,
+a.tabbut:focus,
+a.tabbut:focus::after {
+	background: #5C5E5F;
+}
+
+a.tabbut:focus {
+	outline: 0;
+}
+
+.tabinfbar
+{
+	position:relative;
+	width:90%;
+	height:35px;
+	background: #5C5E5F; 
+}
+
+.navpage
+{
+	position:absolute;
+	display: inline;
+	left: 34%;
+	top: 20%;
+}
+
+.span2
+{
+	position:absolute;
+	left: 5%;
+	top: 20%;
+	color: black;
+}
+
+.tabfind
+{
+	position:relative;
+	background: #DCDEDF;
+	width: 90%;
+	height: 120px;
+}
+
+.tabar
+{
+	position: relative;
+	display:inline-block;
+	width: 730px;
+}
+
+.variki
+{
+	position:relative;
+	height: 240px;
+	width: 100%;
+	margin: 5px;
+	box-shadow: 0px 0px 7px #BBB;
+    -webkit-border: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.tabadr
+{
+ position: absolute;
+ top:12px; 
+ left: 200px;
+}
+
+.tabimg
+{
+	position: absolute;
+	margin: 3px 0px 0px 3px;
+	height: 180px;
+	width: 180px;
+	
+}
+
+.np
+{
+    color: #D0D0D0;
+    text-decoration: none;
+	font-size: 16px;
+	margin-right: 10px;
+	text-shadow: 0 1px 0 rgba(255,255,255,.6);
+    box-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+
+.oftel
+{
+	position: absolute;
+	display: inline-block;
+	left:175px;
+	top: 190px;
+	background: #CD5300;
+    color: #FFF;
+    text-shadow: none;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 7px 0 0 24px;
+    width: 110px;
+}
+.trai
+{
+	position:absolute;
+	right:15px;
+	top:12px;	
+}
+.tcom
+{
+	position:relative;
+	left:200px;
+	width:500px;
+	top: 50px;	
+}
+
+.tprice
+{
+	position:absolute;
+	display:inline-block;
+	top:200px;
+	left: 50px;
+	font-weight: bold;
+    color: #3076b0;
+
+}
+
+.fsum
+{
+  width:60px;
+  height:25px;
+  font-size:15px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none; margin: 0px;
+        }
+input[type=number] {
+    -moz-appearance:textfield;
+}	
+
+.fattr
+{
+  width:175px;
+  height:25px;
+  font-size:15px;
+}
+
+
+.fdiv
+{
+    position: relative;
+	display:inline-block;
+	margin-left: 50px;
+    font-size:15px;
+    margin-top: 10px;	
+}
+
+.findbut
+{
+	position: absolute;
+	background: #CD5300 url("/source/btn-orange-bg.png") repeat-x;
+    color: #FFF;
+    text-shadow: none;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 17px 0 0 24px;
+	top:65px;
+	left:730px;
+	width:124px;
+}
+
+.tdey
+{
+	position: absolute;
+	display: inline-block;
+	top: 190px;
+	left:500px;
+}
+
+.tdimg
+{
+	height:25px;
+	margin-left:20px;
+}
+
+a.viw:link {color : #3076b0; text-decoration: underline;}
+a.viw:visited {color : #3076b0; text-decoration: underline;}
+a.viw:hover {color : #3076b0; text-decoration: none;}
+a.viw:active {color : #3076b0; text-decoration: none;}
+		
